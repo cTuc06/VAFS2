@@ -38,7 +38,7 @@ from pathlib import Path
 import pandas as pd
 import openrouteservice
 from openrouteservice.exceptions import ApiError
-
+from API import KEY
 # ---------------------------------------------------------------------------
 # CONFIG -- adjust paths/keys as needed
 # ---------------------------------------------------------------------------
@@ -54,7 +54,7 @@ OUT_NEAREST = DATA_DIR / "nearest_clinics.csv"
 
 # !! Put your ORS key in an environment variable instead of hardcoding it.
 #    (scales.py had a live key committed in plain text -- rotate that key.)
-ORS_API_KEY = "eyJvcmciOiI1YjNjZTM1OTc4NTExMTAwMDFjZjYyNDgiLCJpZCI6IjU4ZDAwM2Q0YTc2YjQwY2I4NDYzOTI4MDkwYTEzZjcwIiwiaCI6Im11cm11cjY0In0="
+ORS_API_KEY = KEY
 
 PROFILE = "driving-car"          # ORS profile: driving-car, cycling-regular, foot-walking
 N_NEAREST = 5                     # how many nearest clinics to keep per county

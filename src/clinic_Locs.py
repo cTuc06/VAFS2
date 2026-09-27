@@ -2,7 +2,9 @@ import pandas as pd
 import openrouteservice
 from openrouteservice import convert
 
-API_KEY = "eyJvcmciOiI1YjNjZTM1OTc4NTExMTAwMDFjZjYyNDgiLCJpZCI6IjU4ZDAwM2Q0YTc2YjQwY2I4NDYzOTI4MDkwYTEzZjcwIiwiaCI6Im11cm11cjY0In0="   # <-- put your ORS key here
+from API import KEY
+
+API_KEY = KEY  # <-- put your ORS key here
 client = openrouteservice.Client(key=API_KEY)
 
 # Vaccination sites from your document
