@@ -1,0 +1,14 @@
+name,address,county,site_lat,site_lon,county_lat,county_lon,distance_meters,distance_miles,duration_minutes
+Cheverly Health Center,"3003 Hospital Drive, Cheverly, MD 20785",Prince George's County,38.925436,-76.914144,38.801393,-76.833083,23001.7,14.29262927659786,32.64666666666667
+Hyattsville Health Center,"1401 E. University Blvd, Suite 201, Hyattsville, MD 20783",Prince George's County,38.959438,-76.954819,38.801393,-76.833083,29497.6,18.32900443660134,40.515
+Germantown Health Center,"12900 Middlebrook Road, Germantown, MD 20874",Montgomery County,39.178996,-77.268445,39.153515,-77.199406,8631.2,5.3631923645718125,11.915
+Silver Spring Health Center,"8630 Fenton Street, Silver Spring, MD 20910",Montgomery County,38.997927,-77.028638,39.153515,-77.199406,29437.9,18.29190848422335,32.85333333333333
+Dennis Ave Health Center,"2000 Dennis Ave, Silver Spring, MD 20902",Montgomery County,39.00197,-77.020588,39.153515,-77.199406,30298.9,18.82691041047883,32.684999999999995
+Eastern Health District Clinic,"1200 E. Fayette St, Baltimore, MD 21202",Baltimore City,39.292518,-76.600804,39.319732,-76.649533,6402.0,3.978028260032063,10.705
+East Baltimore Medical Center,"1000 E. Eager St, Baltimore, MD 21202",Baltimore City,39.301743,-76.60294,39.319732,-76.649533,5740.9,3.5672387438328754,10.116666666666667
+Parole Health Center,"1950 Drew Street, Annapolis, MD 21401",Anne Arundel County,38.978023,-76.529002,39.001902,-76.547868,4954.7,3.0787154982787976,11.686666666666667
+Glen Burnie Health Center,"416 A Street SW, Glen Burnie, MD 21061",Anne Arundel County,39.161643,-76.62875,39.001902,-76.547868,26307.4,16.346701132141128,27.85
+Magothy Health Center,"2501 Mountain Road, Pasadena, MD 21122",Anne Arundel County,39.134266,-76.586695,39.001902,-76.547868,24017.9,14.924068251581396,30.11
+Baltimore County Drumcastle,"6401 York Rd, Baltimore, MD 21212",Baltimore County,39.372956,-76.608603,39.518941,-76.687519,22177.6,13.780556004324755,26.996666666666666
+Dundalk Health Center,"7700 Dunmanway, Dundalk, MD 21222",Baltimore County,39.255672,-76.506714,39.518941,-76.687519,43788.0,27.20866939242174,49.79833333333333
+Laurel Clinic,"14207 Park Center Dr, Laurel, MD 20707",Prince George's County,39.085053,-76.877602,38.801393,-76.833083,43108.3,26.78632234332087,47.28
