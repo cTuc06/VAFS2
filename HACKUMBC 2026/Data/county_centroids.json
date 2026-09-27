@@ -1,0 +1,30 @@
+{
+  "Anne Arundel County, Maryland": {
+    "county_lat": 39.001902,
+    "county_lon": -76.547868
+  },
+  "Baltimore County, Maryland": {
+    "county_lat": 39.518941,
+    "county_lon": -76.687519
+  },
+  "Calvert County, Maryland": {
+    "county_lat": 38.541151,
+    "county_lon": -76.549215
+  },
+  "Howard County, Maryland": {
+    "county_lat": 39.237963,
+    "county_lon": -76.910833
+  },
+  "Montgomery County, Maryland": {
+    "county_lat": 39.153515,
+    "county_lon": -77.199406
+  },
+  "Prince George's County, Maryland": {
+    "county_lat": 38.801393,
+    "county_lon": -76.833083
+  },
+  "Baltimore city, Maryland": {
+    "county_lat": 39.319732,
+    "county_lon": -76.649533
+  }
+}
