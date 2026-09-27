@@ -1,22 +1,19 @@
 """
 friction_score.py
-==================
-Phase 2: Vaccine Access Friction Score (VAFS) model.
+Vaccine Access Friction Score (VAFS) model.
 
 Turns the Phase 1 outputs (ACS DP03 county/ZCTA data + travel_times.py's
 nearest_clinics.csv) into a 0-100 friction score per region, broken into
 five domains, with:
   - a configurable weighted scoring system
-  - a sensitivity analysis (does the score behave intuitively as weights change?)
+  - a sensitivity analysis 
   - an honest accounting of which domains are backed by real data vs. missing
 
 DATA REALITY CHECK (please read before presenting this as final)
 ------------------------------------------------------------------
-Your uploaded ACSDP5Y2024.DP03-Data.csv is a MIX of two geography levels:
+Your uploaded ACSDP5Y2024.DP03-Data.csv has one geography level:
   - 7 counties          (GEO_ID prefix "0500000US...")
-  - 6 ZCTAs / ZIP codes  (GEO_ID prefix "860Z200US...", all Baltimore-area,
-                          21240/21244/21250/21251/21252/21285 -- looks like
-                          a UMBC-area test pull)
+
 This script handles both transparently via `parse_geo_id()`, but it means
 your current sample isn't a full state or even one consistent geography --
 useful for a demo, not for a real map yet.
